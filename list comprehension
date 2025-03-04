@@ -1,0 +1,82 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMer+2FDOiAOFAlHMVjw15B",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/CLTCC-bryanbroussard99/CLTCC-bryanbroussard99/blob/main/list%20comprehension\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "PtvtVzLrGHZG"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "### Simple List Comprehension\n",
+        "print(\"List comprehension result:\")\n",
+        "\n",
+        "# The following list comprehension compacts several lines\n",
+        "# of code into one line:\n",
+        "print([x*2 for x in range(1,11)])\n",
+        "\n",
+        "### Long form for loop\n",
+        "print(\"Long form code result:\")\n",
+        "\n",
+        "# The list comprehension above accomplishes the same result as\n",
+        "# the long form version of the code shown below:\n",
+        "my_list = []\n",
+        "for x in range(1,11):\n",
+        "    my_list.append(x*2)\n",
+        "print(my_list)\n",
+        "\n",
+        "# Select Run to compare the two results."
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-GFeOlIqGceG",
+        "outputId": "c31aa57f-390a-44cc-ecc5-39650f3b1771"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "List comprehension result:\n",
+            "[2, 4, 6, 8, 10, 12, 14, 16, 18, 20]\n",
+            "Long form code result:\n",
+            "[2, 4, 6, 8, 10, 12, 14, 16, 18, 20]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
